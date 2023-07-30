@@ -42,8 +42,8 @@ main {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 268px;
-    height: 472px;
+    width: 275px;
+    height: 475px;
     
 }
 
@@ -68,3 +68,4 @@ main {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
     transition: transform 0.3s, border .8s;
 }
+
