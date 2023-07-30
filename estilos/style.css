@@ -9,7 +9,7 @@
 html, body{
     height: 100vh;
     width: 100vw;
-    
+
 }
 
 body{
@@ -21,7 +21,6 @@ body{
 main {
     height: 10vh;
     position: relative;
-    background-color: ;
 }
 
 
@@ -37,4 +36,35 @@ main {
     background-color: purple;
     background: url(../imagens/frame-iphone.png) no-repeat;
     
+}
+
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 472px;
+    
+}
+
+.rede-sociais{
+    text-align: right;
+}
+
+
+.rede-sociais img{
+    width: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    box-sizing: border-box;
+
+}
+
+
+.rede-sociais img:hover{
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+    transition: transform 0.3s, border .8s;
 }
