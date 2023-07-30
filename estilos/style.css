@@ -1,0 +1,40 @@
+@charset "UFT-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+body{
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    height: 10vh;
+    position: relative;
+    background-color: ;
+}
+
+
+.telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+
+    height: 627px;
+    width: 311px;
+    background-color: purple;
+    background: url(../imagens/frame-iphone.png) no-repeat;
+    
+}
